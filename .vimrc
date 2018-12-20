@@ -194,7 +194,10 @@ nmap <silent> <F5> :cs find s <C-R>=expand("<cword>")<CR><CR> :botright copen<CR
 nmap <silent> <F6> :cs find t <C-R>=expand("<cword>")<CR><CR> :botright copen<CR><CR>
 "nmap <silent> <F7> :cs find g <C-R>=expand("<cword>")<CR><CR> 
 nmap <silent> <F7> :cs find c <C-R>=expand("<cword>")<CR><CR> :botright copen<CR><CR>
-nmap  <F3> :NERDTreeToggle<cr>
+nmap  <F1> :NERDTreeToggle<cr>
+nmap  <F2> :LeaderfFile<cr>
+nmap  <F3> :LeaderfBufTag<cr>
+nmap  <F4> :LeaderfFunction<cr>
 
  "--------------------------------------------------------------------------------
 "  自动加载ctags: ctags -R
